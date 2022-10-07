@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+    
+}
+
+.header-box {
+    height: 400px;
+    width: 100%;
+    background-color: #1F2937;
+    
+}
+
+.header {
+    padding: 10px 15%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-cleft {
+    width: 500px;
+}
+
+.header-cleft > p {
+    color: white;
+    font-size: 18px;
+}
+
+.header-cright {
+    height: 200px;
+    width: 500px;
+    background-color: lightgrey;
+}
+
+button {
+    background-color: #3882F6;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.info-container {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 45px;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.image-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.section {
+    text-align: center;
+}
+
+.img-box {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote-container {
+    height: 450px;
+    width: 100%;
+    background-color: #E5E7EB;
+    
+    
+    
+}
+
+.quote-container > p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 120px 30%;
+}
+
+.author {
+    display: flex;
+    padding-right: 20px;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    
+    
+}
+
+
+
+.action-content {
+    display: flex;
+    gap: 200px;
+    padding: 25px 200px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.action-left {
+    color: white;
+}
+
+.action-left > p {
+    padding-bottom: 15px;
+    margin-top: 0;
+    font-size: 16px;
+
+}
+
+h5 {
+    
+    font-size: 24px;
+    margin-bottom: 8px;
+    
+
+}
+.action-right {
+    padding-top: 45px;
+}
+
+.action-right > button {
+    
+    font-size: 20px;
+    border: 2px solid white;
+    color: white;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
